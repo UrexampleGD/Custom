@@ -84,6 +84,7 @@ createStyledButton("Show Message", UDim2.new(0.5, 0, 0.6, 0), function()
     local message = Instance.new("Message")
     message.Parent = game.Workspace
     message.Text = TextBox.Text
+    wait(6)
 end)
 
 local CloseButton = Instance.new("TextButton")
